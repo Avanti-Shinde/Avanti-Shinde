@@ -1,0 +1,144 @@
+body {
+    color: white;
+    background-color: #f9d43b;
+    padding: 0;
+}
+
+.heading{
+    color: black;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: rgb(240, 173, 50) 1px solid;
+}
+
+.logo{
+    height: 100%;
+}
+
+.subhead a{
+    color: black;
+    text-decoration: none;
+}
+
+.subhead{
+    /* background-color: lightpink; */
+    height: 100%;
+    width: 80%;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.content{
+    padding: 10px;
+    color: black;
+    background-image: url("img/bg.jpg");
+    background-size:100% 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recontent{
+    padding: 10px;
+    color: black;
+    /* background-image: url("img/bg.jpg");
+    background-size:100% 100%; */
+    background-color: #f9d43b;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.recipe{
+    font-size: 102%;
+}
+
+.rehead{
+    font-size: 130%;
+    font-weight: bolder;
+    font-family:fantasy;
+    font-style: italic;
+}
+
+.listhead {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 150%;
+}
+
+.mylist a{
+    color: black;
+    text-decoration: none;
+}
+
+.mylist li {
+    display: list-item;
+    font-size: 120%;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding:10px;
+}
+
+.footer{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    border-top: rgb(240, 173, 50) 1px solid;
+
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.desc{
+    text-align: center; 
+    font-size: 25px;
+}
+
+.up{
+    font-family: monospace;
+}
+
+.down{
+    font-family:cursive;
+    margin-bottom: 20px;
+}
+
+.super{
+    height: 100vh;
+}
